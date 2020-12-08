@@ -1,14 +1,5 @@
-<div class="{{header_class}}">
-  <span class="title" (click)="drawBoxesPick()">
-    <span style="display:inline-block">Second</span>
-    <span style="display:inline-block">Shop</span>
-  </span>
-  <div class="search">
-    <input type="text" name="search" [(ngModel)]="search"><button>  &#8981;</button>
-  </div>
-  <button class="shop-filter" (click)="drawBoxesMan()">Мужское</button>
-  <button class="shop-filter" (click)="drawBoxesWoman()">Женское</button>
-  <div class="logo"><img style="max-width:100%;height: 85px;object-fit: contain;" src="assets/logo3.jpg"></div>
-</div>
-
-<div id="productList"></div>
+<nav>
+  <p class="title">Автомагазин</p>
+</nav>
+<hr>
+<router-outlet></router-outlet>

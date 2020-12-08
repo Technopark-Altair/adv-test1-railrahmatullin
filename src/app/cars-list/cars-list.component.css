@@ -1,0 +1,35 @@
+.main__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 7vw;
+  color: rgb(55, 12, 156);
+}
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2vh 0;
+  color: rgb(55, 12, 156);
+}
+.assortment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(55, 12, 156);
+}
+.model__card {
+  width: 18vw;
+  border: 2px solid rgb(55, 12, 156);
+  padding: 1.5vh 2vw;
+  margin: 2vh 5vw 3vh 0;
+
+  border-radius: 3px;
+
+  text-decoration: none;
+  color: rgb(55, 12, 156);
+}
+.brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(55, 12, 156);
+}
+/* 1 */

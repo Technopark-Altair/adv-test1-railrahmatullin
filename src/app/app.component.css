@@ -1,113 +1,17 @@
-.search button {
-	width: 20%;
-	margin-left: 2%;
-	font-size: 200%;
-}
-.search input {
-	width:75%;
+nav {
+  width: 50%;
+  height: 13vh;
 
-}
-#productList {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-}
-:host ::ng-deep .productItem {
-	margin: 12px;
-	flex: 1 0 auto;
-	max-width: 18%;
-	min-width: 300px;
-	background: white;
-	height: 450px;
-	text-align: center;
-	font-size:11 0%;
-	font-family: verdana;
-}
-:host ::ng-deep .productItem img {
-	margin-left: 5%;
-	display: block;
-	width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.header {
-	display: flex;
-	height: 85px;
-	width: 90%;
-	margin-left: calc(5% - 2px);
-	border: 2px black solid;
-	margin-bottom: 12px;
-}
-.header .title {
-	flex: 1 0.5 auto;
-	display: inline-block;
-	text-align: center;
-	padding-top: 18px;
-	min-width: 20%;
-	height: 67px;
-	font-size: 200%;
-	font-family: verdana;
-	font-weight: 1000;
-
-	color: white;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
-	overflow-wrap: anywhere;
-}
-.header .search {
-	flex-grow: 2;
-}
-.header .shop-filter {
-	flex-grow: 1;
-	background: none;
-	font-size: 110%;
-	font-family: verdana;
-	height: 85px;
-}
-.header .logo {
-	flex-grow: 4 1 none;
-	flex: 1 0.5 auto;
-	max-height: 85px;
-	width: 20%;
-	text-align: center;
+.title {
+  font-size: 4rem;
+  font-style: verdana;
 }
 
-
-
-.header-mobile {
-	display: block;
-	width:calc(100% - 4px);
-	border: 2px black solid;
-}
-.header-mobile .title {
-	width: 100%;
-	display: inline-block;
-	text-align: center;
-	height: 55px;
-	font-size: 200%;
-	font-family: verdana;
-	font-weight: 1000;
-	color: white;/* */
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
-}
-.header-mobile .search {
-	flex-grow: 2;
-	height:45px;
-padding-top: 8px;
-}
-.header-mobile .shop-filter {
-	background: none;
-	font-size: 110%;
-	font-family: verdana;
-	width:50%;
-	height: 50px;
-}
-.header-mobile .logo {
-	display: none;/*
-	flex-grow: 4 1 none;
-	flex: 1 0.5 auto;
-	max-height: 85px;
-	width: 20%;*/
+app-cars-list {
+  width: 70%;
 }
