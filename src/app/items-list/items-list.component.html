@@ -1,0 +1,17 @@
+<div class="search__container">
+  <input class="form-control" type="text" [(ngModel)]="search" value="nike" placeholder="Например, кроссовки">
+  <button class="btn btn-secondary my-2 my-sm-0" >Поиск</button>
+</div>
+<div class="main__container">
+  <div class="main_container">
+    <a *ngFor="let item of items | myfilter:{razdelName:item_razdel, modelName:search, brandName:search }" class="box" href="item/{{item.id}}">
+      <img src="{{item.pictureName}}">
+      <br>
+      Тип: {{item.modelName}}
+      Бренд: {{item.brandName}}
+      <br>
+      : {{item.priceInRub}}
+    </a>
+  </div>
+</div>
+

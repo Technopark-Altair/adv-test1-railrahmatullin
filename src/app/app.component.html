@@ -1,6 +1,37 @@
-<hr>
-<div class="jumbotron">
-  <h1>Салон у Саныча</h1>
-  <p>Самые дешевые и лучшие авто только у нас!</p>
-</div><br>
+
+  <div class="bs-component">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" routerLink="/">SecondShop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="men">Мужское</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="women">Женское</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="child">Детское</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="cart">Корзина &nbsp;<img style="height: 2em" src="assets/shop_cart.png"></a>
+          </li>
+        </ul>
+      </div>
+     
+    </nav>
+  
+    
+  </div>
+<br>
+
 <router-outlet></router-outlet>
