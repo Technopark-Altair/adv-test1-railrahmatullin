@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CarComponent } from "./car/car.component";
-import { CarsListComponent } from "./cars-list/cars-list.component";
+import { CartListComponent } from './cart-list/cart-list.component';
+import { ItemComponent } from "./item/item.component";
+import { ItemsListComponent } from "./items-list/items-list.component";
 import { NotFoundComponent } from "./not-found/not-found.component";
 
 
   const routes: Routes = [
-    { path: "", component: CarsListComponent},
-    { path: "car/:id", component: CarComponent},
+    { path: "cart", component: CartListComponent},
+    { path: "", component: ItemsListComponent},
+    { path: "item/:id", component: ItemComponent},
+    { path: ":razdel", component: ItemsListComponent},
     { path: "**", component: NotFoundComponent},
   ];
 

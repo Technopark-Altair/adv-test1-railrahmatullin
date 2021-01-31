@@ -1,0 +1,17 @@
+
+<div class="main__container">
+    <h2 style="text-align: center;">{{ message }} </h2>
+       
+    
+    <div class="main_container">
+        
+      <a *ngFor="let item of itemList" class="box">
+        <img src="{{item.pictureName}}">
+        <br>
+        Тип: {{item.modelName}}
+        Бренд: {{item.brandName}}
+        <br>
+        : {{item.priceInRub}}
+      </a>
+    </div>
+  </div>

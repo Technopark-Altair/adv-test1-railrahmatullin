@@ -1,0 +1,8 @@
+
+  <ul class="list-group">
+    <li class="list-group-item">Бренд: {{item.brandName}}</li>
+    <li class="list-group-item">Модель: {{item.modelName}}</li>
+    <li class="list-group-item">Цена: {{item.priceInRub}}</li>
+    <li class="list-group-item">Фото: <img style="max-width:100%;height: 85px;object-fit: contain;" src="{{item.pictureName}}"></li>
+  </ul>
+  <button type="button" class="btn btn-success btn-lg" (click)="addtocart()">В корзину</button>

@@ -1,8 +1,9 @@
-export interface Car {
+export interface Item {
     id: number,
+    razdelName: string,
     brandName: string,
-    new: boolean,
-    year: number,
     priceInRub: number,
     modelName: string,
+    pictureName: string,
+    
 }
